@@ -41,7 +41,7 @@ h1{
   color: #c12258;
   font-size: 2em;
   text-align: center;
-  line-height: 2;
+  line-height: 2em;
 }
 
 p{
@@ -52,7 +52,6 @@ a{
   font-size: 16px;
   color: #b92751;
   text-decoration-style: wavy;
-  text-decoration-line: underline;
 }
 
 a:focus {
@@ -62,8 +61,8 @@ a:focus {
 table{
   border: 2px solid #000000;
   margin: 0 auto;
-  text-align: center;
-  padding: 10px;
+  border-width: 2px;
+  border-radius: 10px;
 }
 
 .colhead{
